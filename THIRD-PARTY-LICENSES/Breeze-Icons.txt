@@ -1,0 +1,17 @@
+KDE Breeze Icons
+================
+
+The isolated `Sources/FloatKit/BreezeKeepAboveIcon.swift` implementation is
+adapted from the 16px `window-keep-above.svg` icon in the KDE Breeze Icon Theme.
+
+Copyright (C) 2014 Uri Herrera <uri_herrera@nitrux.in> and others.
+
+The Breeze Icon Theme is free software and artwork licensed under the GNU
+Lesser General Public License, version 3 or (at your option) any later version.
+The licence expressly applies to the artwork library and permits its elements
+to be used in a graphical user interface.
+
+Original source repository: https://invent.kde.org/frameworks/breeze-icons
+Original icon path: icons/actions/16/window-keep-above.svg
+Licence: LGPL-3.0-or-later
+Licence text: https://www.gnu.org/licenses/lgpl-3.0.html

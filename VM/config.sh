@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Override any value by exporting it before invoking a VM script.
+FLOATKIT_TART_IMAGE="${FLOATKIT_TART_IMAGE:-ghcr.io/cirruslabs/macos-tahoe-xcode:latest}"
+FLOATKIT_TART_BASE="${FLOATKIT_TART_BASE:-floatkit-tahoe-base}"
+FLOATKIT_TART_CPUS="${FLOATKIT_TART_CPUS:-4}"
+FLOATKIT_TART_MEMORY_MB="${FLOATKIT_TART_MEMORY_MB:-8192}"
+FLOATKIT_TART_DISPLAY="${FLOATKIT_TART_DISPLAY:-1920x1200}"
+FLOATKIT_TART_TIMEOUT="${FLOATKIT_TART_TIMEOUT:-180}"
