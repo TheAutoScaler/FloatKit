@@ -63,6 +63,18 @@ Control hides them instead of presenting the source and mirror as two windows.
 
 The app is written to `build/FloatKit.app`.
 
+## Install or update
+
+```sh
+./install-app.sh
+```
+
+The installer builds the current source, stops any running FloatKit or legacy
+WindowTools process, installs the result at `/Applications/FloatKit.app`, and
+launches it. If `/Applications/WindowTools.app` remains from before the rename,
+the installer moves it to the Trash so macOS cannot restore the obsolete app at
+the next login. Pass `--no-launch` when installing for later use.
+
 ### Reproducing tests in a disposable VM
 
 The automated environment uses [Tart](https://tart.run/) to test FloatKit in a
@@ -245,8 +257,7 @@ install and open the newly signed build, then grant both permissions again:
 ```sh
 tccutil reset Accessibility io.github.theautoscaler.floatkit
 tccutil reset ScreenCapture io.github.theautoscaler.floatkit
-ditto build/FloatKit.app /Applications/FloatKit.app
-open /Applications/FloatKit.app
+./install-app.sh
 ```
 
 On macOS 26, Screen Recording can occasionally retain a stale row even when
