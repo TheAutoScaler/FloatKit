@@ -13,6 +13,10 @@ I do not know Swift. I built this app with Codex and tested each change. The
 longer record of agent-led performance work is in
 [`docs/AGENT-PERFORMANCE-NOTES.md`](docs/AGENT-PERFORMANCE-NOTES.md).
 
+FloatKit still has a few visible graphical bugs, but they do not affect
+usability. I may revisit them later; for now, I am taking a break from testing
+Codex-generated changes.
+
 ## Use
 
 - Click the pin in the menu bar to pin or unpin the focused window.
