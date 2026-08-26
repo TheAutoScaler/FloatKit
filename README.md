@@ -95,6 +95,11 @@ Other focused tests are available:
 The VM tests use [Tart](https://tart.run/) on Apple Silicon. They need Homebrew
 and about 100 GB of free space.
 
+FloatKit Visual Oracle is a small helper app that runs on the host Mac. It takes
+a screenshot of the Tart VM window so the tests can compare what a person would
+actually see. This catches graphical bugs that a screenshot taken inside the VM
+can miss. It does not use the mouse or keyboard.
+
 Set them up once:
 
 ```sh
