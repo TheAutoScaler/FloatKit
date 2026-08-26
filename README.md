@@ -13,8 +13,9 @@ I do not know Swift. I built this app with Codex and tested each change. The
 longer record of agent-led performance work is in
 [`docs/AGENT-PERFORMANCE-NOTES.md`](docs/AGENT-PERFORMANCE-NOTES.md).
 
-There are some obvious graphical bugs that I can probably iron-out, but they
-don't impact usability and I am currently fed up of being QA for Codex.
+FloatKit still has a few visible graphical bugs, but they do not affect
+usability. I may revisit them later; for now, I am taking a break from testing
+Codex-generated changes.
 
 ## Use
 
